@@ -1,4 +1,4 @@
-gversion: "3"
+version: "3"
 
 services:
     php:
@@ -15,3 +15,5 @@ services:
             - "9999:80"
         depends_on:
             - "php"
+
+            
